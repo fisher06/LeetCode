@@ -6,7 +6,7 @@ LeetCode
  
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Js](./algorithms/js/twoSum/twoSum.js)|Easy|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Js](./algorithms/twoSum/twoSum.js)|Easy|
 
 
 ### LeetCode Shell
