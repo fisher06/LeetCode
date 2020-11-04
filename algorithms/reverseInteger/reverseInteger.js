@@ -66,3 +66,40 @@ var reverse = function(x) {
     
     return num
 };
+
+/********************************************************************************** 
+Solution 3
+Runtime: 92 ms, faster than 83.20% of JavaScript online submissions for Reverse Integer.
+Memory Usage: 40.5 MB, less than 18.65% of JavaScript online submissions for Reverse Integer.
+**********************************************************************************/
+/**
+ * @param {number} x
+ * @return {number}
+ */
+var reverse = function(x) {
+    
+    var flag = false;
+    
+    if (x < 0) {
+        x *= -1;
+        flag = true;
+    }
+    
+    let num = x;
+    let cur = 0;
+    
+    while (num > 0) {
+        cur = cur * 10 + num % 10
+        num = parseInt(num / 10)
+    }
+    
+    if (cur < -2147483648 || cur > 2147483647) {
+        return 0
+    }
+    
+    if (flag === true) {
+        cur = -cur
+    }
+    
+    return cur
+};
