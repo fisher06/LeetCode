@@ -28,8 +28,8 @@ var reverse = function(x) {
 
 /********************************************************************************** 
 Solution 2
-Runtime: 104 ms, faster than 33.46% of JavaScript online submissions for Reverse Integer.
-Memory Usage: 40 MB, less than 18.65% of JavaScript online submissions for Reverse Integer.
+Runtime: 88 ms, faster than 93.00% of JavaScript online submissions for Reverse Integer.
+Memory Usage: 40.1 MB, less than 18.65% of JavaScript online submissions for Reverse Integer.
 **********************************************************************************/
 /**
  * @param {number} x
