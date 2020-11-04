@@ -4,8 +4,8 @@
 
 /********************************************************************************** 
 Solution 1
-Runtime: 100 ms, faster than 50.95% of JavaScript online submissions for Reverse Integer.
-Memory Usage: 40.1 MB, less than 18.65% of JavaScript online submissions for Reverse Integer.
+Runtime: 216 ms, faster than 69.52% of JavaScript online submissions for Palindrome Number.
+Memory Usage: 48.1 MB, less than 5.85% of JavaScript online submissions for Palindrome Number.
 **********************************************************************************/
 /**
  * @param {number} x
