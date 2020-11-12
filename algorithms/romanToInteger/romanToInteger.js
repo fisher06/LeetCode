@@ -19,13 +19,13 @@ var romanToInt = function(s) {
     var sum = 0; 
     
     for(var i = 0; i < s.length; i++) {
-        rom1 = obj[s[i]];
-        rom2 = obj[s[i+1]];
-        if(s[i+1] !== "" && rom1 < rom2) {
-            sum += rom2 - rom1;
+        curr = obj[s[i]];
+        next = obj[s[i+1]];
+        if(s[i+1] !== "" && curr < next) {
+            sum += next - curr;
             i++;
         } else 
-            sum += rom1;
+            sum += curr;
     }
     return sum;
 
