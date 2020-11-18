@@ -5,11 +5,11 @@
 
 /********************************************************************************** 
 Solution 1
-Runtime: 80 ms, faster than 65.45% of JavaScript online submissions for Valid Parentheses.
-Memory Usage: 38.6 MB, less than 78.80% of JavaScript online submissions for Valid Parentheses.
+Runtime: 80 ms, faster than 92.53% of JavaScript online submissions for Valid Parentheses.
+Memory Usage: 33.9 MB, less than 99.98% of JavaScript online submissions for Valid Parentheses.
 **********************************************************************************/
 /**
-/**
+/** 
  * @param {string} s
  * @return {boolean}
  */
