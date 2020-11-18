@@ -5,8 +5,8 @@
 
 /********************************************************************************** 
 Solution 1
-Runtime: 96 ms, faster than 21.48% of JavaScript online submissions for Longest Common Prefix.
-Memory Usage: 39.7 MB, less than 5.53% of JavaScript online submissions for Longest Common Prefix.
+Runtime: 80 ms, faster than 65.45% of JavaScript online submissions for Valid Parentheses.
+Memory Usage: 38.6 MB, less than 78.80% of JavaScript online submissions for Valid Parentheses.
 **********************************************************************************/
 /**
 /**
