@@ -24,3 +24,29 @@ var removeDuplicates = function(nums) {
     
     return nums.length;
 };
+
+
+/********************************************************************************** 
+Solution 2
+Runtime: 92 ms, faster than 77.68% of JavaScript online submissions for Remove Duplicates from Sorted Array.
+Memory Usage: 41.2 MB, less than 21.06% of JavaScript online submissions for Remove Duplicates from Sorted Array.
+**********************************************************************************/
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var removeDuplicates = function(nums) {
+    
+    let i = 0;
+    
+    for (let j = 1; j < nums.length; j++) {
+        
+        if (nums[j] !== nums[i]) {
+            
+          i += 1;
+          nums[i] = nums[j];
+        }
+    }
+
+    return i + 1;
+};
