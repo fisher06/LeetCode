@@ -6,6 +6,7 @@ LeetCode
  
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Js](./algorithms/removeElement/implementStrstr.js)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Js](./algorithms/removeElement/removeElement.js)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Js](./algorithms/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.js)|Easy|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)| [Js](./algorithms/mergeTwoSortedLists/mergeTwoSortedLists.js)|Easy|
