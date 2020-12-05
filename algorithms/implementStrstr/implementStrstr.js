@@ -4,6 +4,18 @@
 
 /********************************************************************************** 
 Solution 1
-Runtime: 96 ms, faster than 21.48% of JavaScript online submissions for Longest Common Prefix.
-Memory Usage: 39.7 MB, less than 5.53% of JavaScript online submissions for Longest Common Prefix.
+Runtime: 76 ms, faster than 86.97% of JavaScript online submissions for Implement strStr().
+Memory Usage: 38.6 MB, less than 73.94% of JavaScript online submissions for Implement strStr().
 **********************************************************************************/
+/**
+ * @param {string} haystack
+ * @param {string} needle
+ * @return {number}
+ */
+var strStr = function(haystack, needle) {
+    if (needle) {
+        return haystack.indexOf(needle)
+    } else {
+        return 0
+    }
+};
