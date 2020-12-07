@@ -1,6 +1,6 @@
 // Source : https://leetcode.com/problems/implement-strstr/
 // Author : Wei XIE
-// Date   : 2020-11-03
+// Date   : 2020-12-05
 
 /********************************************************************************** 
 Solution 1
