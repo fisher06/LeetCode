@@ -6,6 +6,7 @@ LeetCode
  
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Js](./algorithms/searchInsertPosition/searchInsertPosition.js)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Js](./algorithms/implementStrstr/implementStrstr.js)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Js](./algorithms/removeElement/removeElement.js)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Js](./algorithms/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.js)|Easy|
