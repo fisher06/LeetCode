@@ -8,6 +8,7 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Js](./algorithms/maximumSubarray/maximumSubarray.js)|Easy|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)| [Js](./algorithms/nQueens/nQueens.js)|Hard|
+|46|[Permutations](https://leetcode.com/problems/permutations/)| [Js](./algorithms/permutations/permutations.js)|Medium|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Js](./algorithms/countAndSay/countAndSay.js)|Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Js](./algorithms/searchInsertPosition/searchInsertPosition.js)|Easy|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Js](./algorithms/implementStrstr/implementStrstr.js)|Easy|
