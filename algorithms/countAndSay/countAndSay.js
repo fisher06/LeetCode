@@ -1,11 +1,11 @@
-// Source : https://leetcode.com/problems/n-queens/
+// Source : https://leetcode.com/problems/count-and-say/
 // Author : Wei XIE
-// Date   : 2021-03-26
+// Date   : 2020-12-08
 
 /********************************************************************************** 
 Solution 1
-Runtime: 96 ms, faster than 51.73% of JavaScript online submissions for N-Queens.
-Memory Usage: 40.6 MB, less than 88.64% of JavaScript online submissions for N-Queens.
+Runtime: 80 ms, faster than 80.05% of JavaScript online submissions for Count and Say.
+Memory Usage: 41 MB, less than 42.53% of JavaScript online submissions for Count and Say.
 **********************************************************************************/
 /**
  * @param {number} n
