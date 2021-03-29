@@ -7,6 +7,7 @@ LeetCode
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [Js](./algorithms/fibonacciNumber/fibonacciNumber.js)|Easy|
+|322|[Coin Change](https://leetcode.com/problems/coin-change/)| [Js](./algorithms/coinChange/coinChange.js)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Js](./algorithms/maximumSubarray/maximumSubarray.js)|Easy|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)| [Js](./algorithms/nQueens/nQueens.js)|Hard|
 |46|[Permutations](https://leetcode.com/problems/permutations/)| [Js](./algorithms/permutations/permutations.js)|Medium|
