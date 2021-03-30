@@ -34,7 +34,8 @@ var coinChange = function(coins, amount) {
 
 /********************************************************************************** 
 Solution 2
-Time Limit Exceeded
+Runtime: 196 ms, faster than 22.74% of JavaScript online submissions for Coin Change.
+Memory Usage: 45.5 MB, less than 13.82% of JavaScript online submissions for Coin Change.
 **********************************************************************************/
 /**
  * @param {number[]} coins
@@ -42,9 +43,11 @@ Time Limit Exceeded
  * @return {number}
  */
 var coinChange = function(coins, amount) {
+    let memo = {};
+    memo[0] = 0;
     
     let dp = (n) => {
-        
+        if(n in memo) return memo[n];
         if(n == 0) return 0;
         if(n < 0) return -1;
         
@@ -55,8 +58,8 @@ var coinChange = function(coins, amount) {
             if(subproblem == -1) continue;
             res = Math.min(res, 1 + subproblem)
         }
-        
-        return res != Infinity ? res : -1;
+        memo[n] = res != Infinity ? res : -1;
+        return memo[n];
     }
     
     return dp(amount);
