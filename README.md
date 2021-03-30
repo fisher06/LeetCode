@@ -6,6 +6,7 @@ LeetCode
  
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|704|[Binary Search](https://leetcode.com/problems/binary-search/)| [Js](./algorithms/binarySearch/binarySearch.js)|Easy|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [Js](./algorithms/fibonacciNumber/fibonacciNumber.js)|Easy|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)| [Js](./algorithms/coinChange/coinChange.js)|Medium|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Js](./algorithms/maximumSubarray/maximumSubarray.js)|Easy|
