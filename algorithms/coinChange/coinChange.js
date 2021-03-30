@@ -31,3 +31,34 @@ var coinChange = function(coins, amount) {
       }
       return dp[amount] === Infinity ? -1 : dp[amount];
 };
+
+/********************************************************************************** 
+Solution 2
+Time Limit Exceeded
+**********************************************************************************/
+/**
+ * @param {number[]} coins
+ * @param {number} amount
+ * @return {number}
+ */
+var coinChange = function(coins, amount) {
+    
+    let dp = (n) => {
+        
+        if(n == 0) return 0;
+        if(n < 0) return -1;
+        
+        let res = Infinity;
+        
+        for(const coin of coins) {
+            let subproblem = dp(n - coin);
+            if(subproblem == -1) continue;
+            res = Math.min(res, 1 + subproblem)
+        }
+        
+        return res != Infinity ? res : -1;
+    }
+    
+    return dp(amount);
+
+};
