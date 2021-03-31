@@ -14,6 +14,7 @@ LeetCode
 |46|[Permutations](https://leetcode.com/problems/permutations/)| [Js](./algorithms/permutations/permutations.js)|Medium|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/)| [Js](./algorithms/countAndSay/countAndSay.js)|Easy|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/)| [Js](./algorithms/searchInsertPosition/searchInsertPosition.js)|Easy|
+|34|[Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| [Js](./algorithms/findFirstAndLastPositionOfElementInSortedArray/findFirstAndLastPositionOfElementInSortedArray.js)|Medium|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/)| [Js](./algorithms/implementStrstr/implementStrstr.js)|Easy|
 |27|[Remove Element](https://leetcode.com/problems/remove-element/)| [Js](./algorithms/removeElement/removeElement.js)|Easy|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)| [Js](./algorithms/removeDuplicatesFromSortedArray/removeDuplicatesFromSortedArray.js)|Easy|
