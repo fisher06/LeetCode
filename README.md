@@ -7,6 +7,7 @@ LeetCode
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)| [Js](./algorithms/binarySearch/binarySearch.js)|Easy|
+|567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Js](./algorithms/permutationInString/permutationInString.js)|Medium|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [Js](./algorithms/fibonacciNumber/fibonacciNumber.js)|Easy|
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)| [Js](./algorithms/findAllAnagramsInAString/findAllAnagramsInAString.js)|Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)| [Js](./algorithms/coinChange/coinChange.js)|Medium|
