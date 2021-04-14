@@ -11,6 +11,7 @@ LeetCode
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [Js](./algorithms/fibonacciNumber/fibonacciNumber.js)|Easy|
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)| [Js](./algorithms/findAllAnagramsInAString/findAllAnagramsInAString.js)|Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)| [Js](./algorithms/coinChange/coinChange.js)|Medium|
+|300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)| [Js](./algorithms/longestIncreasingSubsequence/longestIncreasingSubsequence.js)|Medium|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Js](./algorithms/twoSumIiInputArrayIsSorted/twoSumIiInputArrayIsSorted.js)|Easy|
 |141|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [Js](./algorithms/linkedListCycleIi/linkedListCycleIi.js)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Js](./algorithms/linkedListCycle/linkedListCycle.js)|Easy|
