@@ -6,6 +6,7 @@ LeetCode
  
 | # | Title | Solution | Difficulty |
 |---| ----- | -------- | ---------- |
+|887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Js](./algorithms/superEggDrop/superEggDrop.js)|Hard|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)| [Js](./algorithms/binarySearch/binarySearch.js)|Easy|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Js](./algorithms/permutationInString/permutationInString.js)|Medium|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [Js](./algorithms/fibonacciNumber/fibonacciNumber.js)|Easy|
