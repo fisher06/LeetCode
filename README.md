@@ -16,6 +16,7 @@ LeetCode
 |141|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [Js](./algorithms/linkedListCycleIi/linkedListCycleIi.js)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Js](./algorithms/linkedListCycle/linkedListCycle.js)|Easy|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [Js](./algorithms/minimumWindowSubstring/minimumWindowSubstring.js)|Hard|
+|72|[Edit Distance](https://leetcode.com/problems/edit-distance/)| [Js](./algorithms/editDistance/editDistance.js)|Hard|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)| [Js](./algorithms/maximumSubarray/maximumSubarray.js)|Easy|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/)| [Js](./algorithms/nQueens/nQueens.js)|Hard|
 |46|[Permutations](https://leetcode.com/problems/permutations/)| [Js](./algorithms/permutations/permutations.js)|Medium|
