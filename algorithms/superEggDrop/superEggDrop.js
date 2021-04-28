@@ -61,3 +61,39 @@ var superEggDrop = function(k, n) {
     
     return dp(k, n);
 };
+
+
+/********************************************************************************** 
+Solution 2
+Runtime: 84 ms, faster than 89.47% of JavaScript online submissions for Super Egg Drop.
+Memory Usage: 44.6 MB, less than 84.21% of JavaScript online submissions for Super Egg Drop.
+**********************************************************************************/
+/**
+ * @param {number} k
+ * @param {number} n
+ * @return {number}
+ */
+var superEggDrop = function(k, n) {
+      
+    let dp = [];
+    
+    for (let i = 0; i <= k; i++) {
+        dp[i] = [];
+        dp[i][0] = 0;
+    }
+    
+    for (let i = 0; i <= n; i++) {
+        dp[0][i] = 0;
+    }
+    
+    let m = 0;
+    while (dp[k][m] < n) {
+        m++;
+        for (let i = 1; i <= k; i++) {
+            dp[i][m] = dp[i][m - 1] + dp[i - 1][m - 1] + 1;
+        }
+            
+    }
+    return m;
+    
+};
