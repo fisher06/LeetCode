@@ -1,4 +1,3 @@
-
 // Source : https://leetcode.com/problems/longest-palindromic-subsequence/
 // Author : Wei XIE
 // Date   : 2021-04-28
