@@ -12,6 +12,7 @@ LeetCode
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Js](./algorithms/permutationInString/permutationInString.js)|Medium|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| [Js](./algorithms/longestPalindromicSubsequence/longestPalindromicSubsequence.js)|Medium|
 |509|[Fibonacci Number](https://leetcode.com/problems/fibonacci-number/)| [Js](./algorithms/fibonacciNumber/fibonacciNumber.js)|Easy|
+|452|[Minimum Number of Arrows to Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/)| [Js](./algorithms/minimumNumberOfArrowsToBurstBalloons/minimumNumberOfArrowsToBurstBalloons.js)|Medium|
 |438|[Find All Anagrams in a String](https://leetcode.com/problems/find-all-anagrams-in-a-string/)| [Js](./algorithms/findAllAnagramsInAString/findAllAnagramsInAString.js)|Medium|
 |435|[Non-overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)| [Js](./algorithms/nonOverlappingIntervals/nonOverlappingIntervals.js)|Medium|
 |322|[Coin Change](https://leetcode.com/problems/coin-change/)| [Js](./algorithms/coinChange/coinChange.js)|Medium|
