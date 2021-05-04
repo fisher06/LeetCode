@@ -30,26 +30,31 @@ Memory Usage: 39 MB, less than 52.58% of JavaScript online submissions for Imple
  * @param {string} needle
  * @return {number}
  */
+/**
+ * @param {string} haystack
+ * @param {string} needle
+ * @return {number}
+ */
 var strStr = function(haystack, needle) {
     
-    if(!needle) {
+    if( !needle ) {
         return 0;
     }
     
-    if(!haystack) {
+    if( !haystack ) {
         return -1;
     }
     
-    if(haystack.length<needle.length) {
+    if( haystack.length < needle.length ) {
         return -1;
     } 
     
     let i=0;
     let j=0;
     
-    while(i<haystack.length && j<needle.length){
+    while(i < haystack.length && j < needle.length){
         
-        if (haystack[i]===needle[j]){
+        if ( haystack[i] === needle[j] ){
             i++;
             j++;
         } else {
@@ -57,7 +62,8 @@ var strStr = function(haystack, needle) {
             j = 0;
         }
     }
-    if(j===needle.length) return i-j;
+    
+    if ( j === needle.length ) return i-j;
 
     return -1;
 };
