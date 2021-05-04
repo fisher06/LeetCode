@@ -67,3 +67,50 @@ var strStr = function(haystack, needle) {
 
     return -1;
 };
+
+
+/********************************************************************************** 
+Solution 3
+Runtime: 88 ms, faster than 30.75% of JavaScript online submissions for Implement strStr().
+Memory Usage: 39.9 MB, less than 29.12% of JavaScript online submissions for Implement strStr().
+**********************************************************************************/
+/**
+ * @param {string} haystack
+ * @param {string} needle
+ * @return {number}
+ */
+var strStr = function(haystack, needle) {
+    
+    let n = haystack.length;
+    let m = needle.length;
+    
+    if (m === 0) {
+        return 0;
+    }
+    
+    let dp = new Array(m).fill(0);
+    
+    for (let i = 1, j = 0; i < m; i++) {
+        while (j > 0 && needle[i] !== needle[j]) {
+            j = dp[j - 1];
+        }
+        if (needle[i] == needle[j]) {
+            j++;
+        }
+        dp[i] = j;
+    }
+    
+    for (let i = 0, j = 0; i < n; i++) {
+        while (j > 0 && haystack[i] != needle[j]) {
+            j = dp[j - 1];
+        }
+        if (haystack[i] == needle[j]) {
+            j++;
+        }
+        if (j === m) {
+            return i - m + 1;
+        }
+    }
+    return -1;
+
+};
