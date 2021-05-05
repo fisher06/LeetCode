@@ -20,6 +20,7 @@ LeetCode
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Js](./algorithms/twoSumIiInputArrayIsSorted/twoSumIiInputArrayIsSorted.js)|Easy|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [Js](./algorithms/linkedListCycleIi/linkedListCycleIi.js)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Js](./algorithms/linkedListCycle/linkedListCycle.js)|Easy|
+|122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)| [Js](./algorithms/bestTimeToBuyAndSellStockIi/bestTimeToBuyAndSellStockIi.js)|Easy|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)| [Js](./algorithms/bestTimeToBuyAndSellStock/bestTimeToBuyAndSellStock.js)|Easy|
 |76|[Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/)| [Js](./algorithms/minimumWindowSubstring/minimumWindowSubstring.js)|Hard|
 |72|[Edit Distance](https://leetcode.com/problems/edit-distance/)| [Js](./algorithms/editDistance/editDistance.js)|Hard|
