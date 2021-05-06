@@ -14,12 +14,10 @@ Memory Usage: 77.1 MB, less than 5.13% of JavaScript online submissions for Best
 var maxProfit = function(prices) {
     
     let n = prices.length;
-    let dp = [];
+    let dp = Array.from(new Array(n), () => new Array(2).fill(0));
     
     for (let i = 0; i < n; i++) {
-        
-        dp[i] = [];
-        
+               
         if (i == 0) {
             dp[0][1] = -prices[i];
             dp[0][0] = 0;
