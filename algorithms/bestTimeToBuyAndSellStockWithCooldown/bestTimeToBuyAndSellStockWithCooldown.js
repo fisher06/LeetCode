@@ -36,3 +36,27 @@ var maxProfit = function(prices) {
     return dp[n - 1][0];
 };
 
+/********************************************************************************** 
+Solution 1
+Runtime: 84 ms, faster than 74.71% of JavaScript online submissions for Best Time to Buy and Sell Stock with Cooldown.
+Memory Usage: 38.6 MB, less than 92.35% of JavaScript online submissions for Best Time to Buy and Sell Stock with Cooldown.
+**********************************************************************************/
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfit = function(prices) {
+    let n = prices.length;
+    let dp_i_1 = - prices[0];
+    let dp_i_0 = 0;
+    let dp_pre_0 = 0;
+
+    for (let i = 1; i < n; i++){
+        let temp = dp_i_0;
+        dp_i_0 = Math.max(dp_i_0, dp_i_1 + prices[i]);
+        dp_i_1 = Math.max(dp_i_1, dp_pre_0 - prices[i]);
+        dp_pre_0 = temp;
+    }
+    return dp_i_0;
+
+};
