@@ -8,6 +8,7 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Js](./algorithms/superEggDrop/superEggDrop.js)|Hard|
 |877|[Stone Game](https://leetcode.com/problems/stone-game/)| [Js](./algorithms/stoneGame/stoneGame.js)|Medium|
+|714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)| [Js](./algorithms/bestTimeToBuyAndSellStockWithTransactionFee/bestTimeToBuyAndSellStockWithTransactionFee.js)|Medium|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)| [Js](./algorithms/binarySearch/binarySearch.js)|Easy|
 |567|[Permutation in String](https://leetcode.com/problems/permutation-in-string/)| [Js](./algorithms/permutationInString/permutationInString.js)|Medium|
 |516|[Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/)| [Js](./algorithms/longestPalindromicSubsequence/longestPalindromicSubsequence.js)|Medium|
