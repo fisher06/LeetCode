@@ -32,3 +32,26 @@ var maxProfit = function(prices) {
 
     return dp[n - 1][0];
 };
+
+/********************************************************************************** 
+Solution 2
+Runtime: 92 ms, faster than 18.06% of JavaScript online submissions for Best Time to Buy and Sell Stock II.
+Memory Usage: 39.1 MB, less than 74.99% of JavaScript online submissions for Best Time to Buy and Sell Stock II.
+**********************************************************************************/
+/**
+ * @param {number[]} prices
+ * @return {number}
+ */
+var maxProfit = function(prices) {
+    let n = prices.length;
+    let dp_i_1 = -prices[0];
+    let dp_i_0 = 0;
+    
+    for (let i = 0; i < n; i++) {
+        
+        dp_i_0 = Math.max(dp_i_0, dp_i_1 + prices[i]);
+        dp_i_1 = Math.max(dp_i_1, dp_i_0 - prices[i]);
+    }
+
+    return dp_i_0;
+};
