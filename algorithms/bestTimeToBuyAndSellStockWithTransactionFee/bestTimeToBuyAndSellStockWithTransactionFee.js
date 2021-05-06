@@ -47,9 +47,9 @@ var maxProfit = function(prices, fee) {
     let dp_i_0 = 0;
     
     for (let i = 0; i < n; i++) {
-        
+        let temp = dp_i_0;
         dp_i_0 = Math.max(dp_i_0, dp_i_1 + prices[i]);
-        dp_i_1 = Math.max(dp_i_1, dp_i_0 - prices[i] - fee);
+        dp_i_1 = Math.max(dp_i_1, temp - prices[i] - fee);
     }
 
     return dp_i_0;
