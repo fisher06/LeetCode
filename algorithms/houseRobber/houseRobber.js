@@ -67,3 +67,29 @@ var rob = function(nums) {
     }
     return dp[0];
 };
+
+/********************************************************************************** 
+Solution 3
+Runtime: 80 ms, faster than 45.34% of JavaScript online submissions for House Robber.
+Memory Usage: 38.3 MB, less than 77.26% of JavaScript online submissions for House Robber.
+**********************************************************************************/
+/**
+ * @param {number[]} nums
+ * @return {number}
+ */
+var rob = function(nums) {
+    let n = nums.length;
+    
+    let dp_i_1 = 0;
+    let dp_i_2 = 0;
+    
+    let dp_i = 0;
+    
+    for (let i = n - 1; i >= 0; i--) {
+        dp_i = Math.max(dp_i_1, nums[i] + dp_i_2);
+        dp_i_2 = dp_i_1;
+        dp_i_1 = dp_i;
+    }
+    
+    return dp_i;
+};
