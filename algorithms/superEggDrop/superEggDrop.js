@@ -1,4 +1,4 @@
-// Source : https://leetcode.com/problems/edit-distance/
+// Source : https://leetcode.com/problems/super-egg-drop/
 // Author : Wei XIE
 // Date   : 2021-04-18
 
