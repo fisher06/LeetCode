@@ -49,7 +49,7 @@ LeetCode
 |9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/)| [Js](./algorithms/palindromeNumber/palindromeNumber.js)|Easy|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)| [Js](./algorithms/reverseInteger/reverseInteger.js)|Easy|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/)| [Js](./algorithms/longestSubstringWithoutRepeatingCharacters/longestSubstringWithoutRepeatingCharacters.js)|Medium|
-|1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Js](./algorithms/twoSum/twoSum.js) [Ts](./algorithms/twoSum/twoSum.ts) |Easy|
+|1|[Two Sum](https://leetcode.com/problems/two-sum/)| [Js](./algorithms/twoSum/twoSum.js), [Ts](./algorithms/twoSum/twoSum.ts) |Easy|
 
 
 ### LeetCode Shell
