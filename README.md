@@ -8,6 +8,7 @@ LeetCode
 |---| ----- | -------- | ---------- |
 |887|[Super Egg Drop](https://leetcode.com/problems/super-egg-drop/)| [Js](./algorithms/superEggDrop/superEggDrop.js)|Hard|
 |877|[Stone Game](https://leetcode.com/problems/stone-game/)| [Js](./algorithms/stoneGame/stoneGame.js)|Medium|
+|739|[Daily Temperatures](https://leetcode.com/problems/daily-temperatures/)| [Ts](./algorithms/dailyTemperatures/dailyTemperatures.js)|Medium|
 |714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/)| [Js](./algorithms/bestTimeToBuyAndSellStockWithTransactionFee/bestTimeToBuyAndSellStockWithTransactionFee.js)|Medium|
 |704|[Binary Search](https://leetcode.com/problems/binary-search/)| [Js](./algorithms/binarySearch/binarySearch.js)|Easy|
 |651|[4 Keys Keyboard](https://leetcode.com/problems/4-keys-keyboard/)| [Js](./algorithms/4KeysKeyboard/4KeysKeyboard.js)|Medium|
