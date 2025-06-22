@@ -25,6 +25,7 @@ LeetCode
 |198|[House Robber](https://leetcode.com/problems/house-robber/)| [Js](./algorithms/houseRobber/houseRobber.js)|Medium|
 |188|[Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)| [Js](./algorithms/bestTimeToBuyAndSellStockIv/bestTimeToBuyAndSellStockIv.js)|Hard|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)| [Js](./algorithms/twoSumIiInputArrayIsSorted/twoSumIiInputArrayIsSorted.js)|Easy|
+|146|[LRU Cache](https://leetcode.com/problems/lru-cache/)| [Ts](./algorithms/lRUCache/lRUCache.ts)|Medium|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/)| [Js](./algorithms/linkedListCycleIi/linkedListCycleIi.js)|Medium|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)| [Js](./algorithms/linkedListCycle/linkedListCycle.js)|Easy|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/)| [Js](./algorithms/bestTimeToBuyAndSellStockIii/bestTimeToBuyAndSellStockIii.js)|Hard|
